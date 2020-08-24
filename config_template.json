@@ -1,0 +1,13 @@
+{
+	"mqtt": {
+		"host": "mqtt://127.0.0.1",
+		"user": "user",
+		"password": "password",
+		"topic_prefix": "ruuvi"
+	},
+	"sensors": [
+		{ "mac": "aa:bb:cc:dd:ee:ff", "name": "outdoor" },
+		{ "mac": "11:22:33:44:55:66" }
+	],
+	"reportinterval": 10
+}
